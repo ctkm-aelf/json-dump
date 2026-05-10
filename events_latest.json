@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-09T06:24:25.889Z",
+  "generated_at": "2026-05-10T06:23:13.294Z",
   "date_range": {
-    "from": "2026-05-03",
-    "to": "2026-05-09"
+    "from": "2026-05-04",
+    "to": "2026-05-10"
   },
   "source_status": {
-    "stripe": "ERROR: fetch failed",
+    "stripe": "ERROR: terminated",
     "revcat": "ERROR: fetch failed",
     "ios": "WARN: fetch failed",
-    "android": "WARN: Play Console nav failed: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://play.google.com/console/u/0/developers/6682795383993552305/app/4974507491312559176/statistics?metrics=DEVICE_ACQUISITION-NEW-EVENTS-PER_INTERVAL-DAY&dimension=COUNTRY&dimensionValues=OVERALL&dateRange=2026_5_3-2026_5_9&tab=APP_STATISTICS\", waiting until \"networkidle\"\n. Logged in?"
+    "android": "WARN: No time_series response captured. Likely not signed in."
   },
   "total_events": 0,
   "events": []
