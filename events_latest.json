@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T03:02:11.940Z",
+  "generated_at": "2026-05-11T04:01:14.544Z",
   "date_range": {
     "from": "2026-05-05",
     "to": "2026-05-11"
@@ -8,10 +8,26 @@
     "stripe": "OK (7 events)",
     "revcat": "OK (7 events)",
     "ios": "OK (7 events)",
-    "android": "WARN: Play Console nav failed: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://play.google.com/console/u/0/developers/6682795383993552305/app/4974507491312559176/statistics?metrics=DEVICE_ACQUISITION-NEW-EVENTS-PER_INTERVAL-DAY&dimension=COUNTRY&dimensionValues=OVERALL&dateRange=2026_5_5-2026_5_11&tab=APP_STATISTICS\", waiting until \"networkidle\"\n. Logged in?"
+    "android": "OK (7 events)"
   },
-  "total_events": 21,
+  "total_events": 28,
   "events": [
+    {
+      "uuid": "41a98dcd-d3d5-5c16-a5a0-1bab77dc3a70",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-05T00:00:00Z",
+      "properties": {
+        "date": "2026-05-05",
+        "$timestamp": "2026-05-05T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 10,
+        "redownloads": 0,
+        "total_downloads": 10,
+        "download_source": "play_console_dashboard"
+      }
+    },
     {
       "uuid": "40954bec-f4ce-5917-9f89-742c6bd2c6d7",
       "event": "ios_daily_metrics",
@@ -65,6 +81,22 @@
         "revenue_usd": 20,
         "new_subscribers": 0,
         "cancellations": 0
+      }
+    },
+    {
+      "uuid": "0ef1df0c-6011-574e-bd8a-9305d36a3b47",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-06T00:00:00Z",
+      "properties": {
+        "date": "2026-05-06",
+        "$timestamp": "2026-05-06T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 7,
+        "redownloads": 0,
+        "total_downloads": 7,
+        "download_source": "play_console_dashboard"
       }
     },
     {
@@ -123,6 +155,22 @@
       }
     },
     {
+      "uuid": "f13c67b9-119d-5b6a-9935-5c2fb99440fc",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-07T00:00:00Z",
+      "properties": {
+        "date": "2026-05-07",
+        "$timestamp": "2026-05-07T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
       "uuid": "f29835de-5119-5b8e-b5a4-ff99562571c9",
       "event": "ios_daily_metrics",
       "distinct_id": "pipeline_ios",
@@ -175,6 +223,22 @@
         "revenue_usd": 20,
         "new_subscribers": 0,
         "cancellations": 0
+      }
+    },
+    {
+      "uuid": "e62f186e-39bd-59db-95c9-f8228a5b4997",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-08T00:00:00Z",
+      "properties": {
+        "date": "2026-05-08",
+        "$timestamp": "2026-05-08T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 5,
+        "redownloads": 0,
+        "total_downloads": 5,
+        "download_source": "play_console_dashboard"
       }
     },
     {
@@ -233,6 +297,22 @@
       }
     },
     {
+      "uuid": "1a2c467d-13ab-5c62-877e-69080ef9d317",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-09T00:00:00Z",
+      "properties": {
+        "date": "2026-05-09",
+        "$timestamp": "2026-05-09T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 6,
+        "redownloads": 0,
+        "total_downloads": 6,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
       "uuid": "ec99a7a6-7a7f-56c1-ae3d-1402f8dbe565",
       "event": "ios_daily_metrics",
       "distinct_id": "pipeline_ios",
@@ -288,6 +368,22 @@
       }
     },
     {
+      "uuid": "25a257bf-e6ad-55c4-9820-25ee1b2f3795",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-10T00:00:00Z",
+      "properties": {
+        "date": "2026-05-10",
+        "$timestamp": "2026-05-10T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
       "uuid": "c7d587f6-e0ab-5809-86c6-92bda1b8bd42",
       "event": "ios_daily_metrics",
       "distinct_id": "pipeline_ios",
@@ -340,6 +436,22 @@
         "revenue_usd": 20,
         "new_subscribers": 0,
         "cancellations": 0
+      }
+    },
+    {
+      "uuid": "f279caaa-b3ea-5873-88c0-f074895392ad",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-11T00:00:00Z",
+      "properties": {
+        "date": "2026-05-11",
+        "$timestamp": "2026-05-11T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "play_console_dashboard"
       }
     },
     {
