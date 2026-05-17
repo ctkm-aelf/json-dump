@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-16T05:12:09.681Z",
+  "generated_at": "2026-05-17T05:13:04.874Z",
   "date_range": {
-    "from": "2026-05-10",
-    "to": "2026-05-16"
+    "from": "2026-05-11",
+    "to": "2026-05-17"
   },
   "source_status": {
     "stripe": "ERROR: fetch failed",
@@ -12,23 +12,6 @@
   },
   "total_events": 7,
   "events": [
-    {
-      "uuid": "c7d587f6-e0ab-5809-86c6-92bda1b8bd42",
-      "event": "ios_daily_metrics",
-      "distinct_id": "pipeline_ios",
-      "timestamp": "2026-05-10T00:00:00Z",
-      "properties": {
-        "date": "2026-05-10",
-        "$timestamp": "2026-05-10T00:00:00Z",
-        "pipeline": "ios",
-        "app_id": "godgpt",
-        "first_time_downloads": 0,
-        "redownloads": 0,
-        "total_downloads": 0,
-        "download_source": "analytics_dashboard",
-        "report_available": false
-      }
-    },
     {
       "uuid": "5fdf5dc9-51b4-5e29-9b5e-a3779535e097",
       "event": "ios_daily_metrics",
@@ -122,6 +105,23 @@
       "properties": {
         "date": "2026-05-16",
         "$timestamp": "2026-05-16T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "analytics_dashboard",
+        "report_available": false
+      }
+    },
+    {
+      "uuid": "d231ac62-29fb-5b27-9c43-4cf767897bb2",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "properties": {
+        "date": "2026-05-17",
+        "$timestamp": "2026-05-17T00:00:00Z",
         "pipeline": "ios",
         "app_id": "godgpt",
         "first_time_downloads": 0,
