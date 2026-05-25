@@ -1,0 +1,655 @@
+{
+  "generated_at": "2026-05-25T03:29:39.838Z",
+  "date_range": {
+    "from": "2026-05-15",
+    "to": "2026-05-23"
+  },
+  "source_status": {
+    "ios": "csv (9)",
+    "android": "csv (9)",
+    "revcat": "api (9)",
+    "stripe": "api (9)"
+  },
+  "total_events": 36,
+  "events": [
+    {
+      "uuid": "3ed0d0b6-623d-5dbc-aa26-2c0676cbd10c",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "properties": {
+        "date": "2026-05-15",
+        "$timestamp": "2026-05-15T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 1,
+        "redownloads": 0,
+        "total_downloads": 1,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "105c993d-b3d1-567b-bd27-ce061eaad140",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "properties": {
+        "date": "2026-05-15",
+        "$timestamp": "2026-05-15T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 2,
+        "redownloads": 0,
+        "total_downloads": 2,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "cf4e351d-dcac-504e-a945-1b5f3aa77e0c",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "properties": {
+        "date": "2026-05-15",
+        "$timestamp": "2026-05-15T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 89,
+        "active_subscribers_ios": 83,
+        "active_subscribers_android": 6,
+        "mrr_total_usd": 1783.51,
+        "mrr_ios_usd": 1506.5,
+        "mrr_android_usd": 277.01,
+        "revenue_total_usd": 11.2,
+        "revenue_ios_usd": 11.2,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "59c458a9-52e6-5c4d-b10f-09e57a2d3d01",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "properties": {
+        "date": "2026-05-15",
+        "$timestamp": "2026-05-15T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 15,
+        "mrr_usd": 263.08,
+        "revenue_usd": 6,
+        "new_subscribers": 1,
+        "cancellations": 2
+      }
+    },
+    {
+      "uuid": "6eee13b4-d8a9-5149-af81-4897d9c63a6a",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "properties": {
+        "date": "2026-05-16",
+        "$timestamp": "2026-05-16T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 5,
+        "redownloads": 0,
+        "total_downloads": 5,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "d9a76c12-82dd-5fd6-ab04-3cf0707e8f34",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "properties": {
+        "date": "2026-05-16",
+        "$timestamp": "2026-05-16T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 5,
+        "redownloads": 0,
+        "total_downloads": 5,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "98a36cd2-5c8b-5142-93a3-892a578b34ba",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "properties": {
+        "date": "2026-05-16",
+        "$timestamp": "2026-05-16T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 90,
+        "active_subscribers_ios": 83,
+        "active_subscribers_android": 7,
+        "mrr_total_usd": 1808.79,
+        "mrr_ios_usd": 1506.3,
+        "mrr_android_usd": 302.49,
+        "revenue_total_usd": 67.86,
+        "revenue_ios_usd": 54.92,
+        "revenue_android_usd": 12.94
+      }
+    },
+    {
+      "uuid": "841b0be3-cd2e-5fa2-99ea-38c290df9c83",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "properties": {
+        "date": "2026-05-16",
+        "$timestamp": "2026-05-16T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 15,
+        "mrr_usd": 263.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "7076b5de-e908-59e9-b7c6-5605eeb80a32",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "properties": {
+        "date": "2026-05-17",
+        "$timestamp": "2026-05-17T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 4,
+        "redownloads": 0,
+        "total_downloads": 4,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "d231ac62-29fb-5b27-9c43-4cf767897bb2",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "properties": {
+        "date": "2026-05-17",
+        "$timestamp": "2026-05-17T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 8,
+        "redownloads": 0,
+        "total_downloads": 8,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "7a14894c-a33e-5b67-8210-d48f1b3a06a4",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "properties": {
+        "date": "2026-05-17",
+        "$timestamp": "2026-05-17T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 91,
+        "active_subscribers_ios": 84,
+        "active_subscribers_android": 7,
+        "mrr_total_usd": 1832.67,
+        "mrr_ios_usd": 1530.18,
+        "mrr_android_usd": 302.49,
+        "revenue_total_usd": 12.04,
+        "revenue_ios_usd": 12.04,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "944ae684-ce5e-5dd4-9a35-2a7c8021512c",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "properties": {
+        "date": "2026-05-17",
+        "$timestamp": "2026-05-17T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 14,
+        "mrr_usd": 243.08,
+        "revenue_usd": 20,
+        "new_subscribers": 0,
+        "cancellations": 1
+      }
+    },
+    {
+      "uuid": "07a7df46-a8d4-58ad-8738-f885684bbf6e",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "properties": {
+        "date": "2026-05-18",
+        "$timestamp": "2026-05-18T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 5,
+        "redownloads": 0,
+        "total_downloads": 5,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "78e83ab0-f282-5816-a654-c1c66c3e3360",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "properties": {
+        "date": "2026-05-18",
+        "$timestamp": "2026-05-18T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 3,
+        "redownloads": 0,
+        "total_downloads": 3,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "eedfe623-ab01-5c09-a6cd-693a6313f310",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "properties": {
+        "date": "2026-05-18",
+        "$timestamp": "2026-05-18T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 91,
+        "active_subscribers_ios": 84,
+        "active_subscribers_android": 7,
+        "mrr_total_usd": 1832.19,
+        "mrr_ios_usd": 1529.98,
+        "mrr_android_usd": 302.21,
+        "revenue_total_usd": 17.71,
+        "revenue_ios_usd": 12.14,
+        "revenue_android_usd": 5.57
+      }
+    },
+    {
+      "uuid": "38073dc2-f7aa-5642-881e-be0ec7b3058e",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "properties": {
+        "date": "2026-05-18",
+        "$timestamp": "2026-05-18T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 14,
+        "mrr_usd": 243.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "1ddcb1d0-ee1b-5325-b591-401b8656e2ee",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "properties": {
+        "date": "2026-05-19",
+        "$timestamp": "2026-05-19T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 8,
+        "redownloads": 0,
+        "total_downloads": 8,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "5848a6b2-07cd-5aa8-80c2-9f0d1f477317",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "properties": {
+        "date": "2026-05-19",
+        "$timestamp": "2026-05-19T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 6,
+        "redownloads": 0,
+        "total_downloads": 6,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "2b546190-992e-577f-ac7f-71dcde057733",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "properties": {
+        "date": "2026-05-19",
+        "$timestamp": "2026-05-19T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 92,
+        "active_subscribers_ios": 85,
+        "active_subscribers_android": 7,
+        "mrr_total_usd": 1856.29,
+        "mrr_ios_usd": 1554.08,
+        "mrr_android_usd": 302.21,
+        "revenue_total_usd": 30.51,
+        "revenue_ios_usd": 30.51,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "cf4aef43-6359-5b19-838d-13456f9e471f",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "properties": {
+        "date": "2026-05-19",
+        "$timestamp": "2026-05-19T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 14,
+        "mrr_usd": 243.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "165cbec6-d0c9-5952-8e49-1b85c8dc2c11",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "properties": {
+        "date": "2026-05-20",
+        "$timestamp": "2026-05-20T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 7,
+        "redownloads": 0,
+        "total_downloads": 7,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "872030fb-d073-522f-9f45-9637881654e3",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "properties": {
+        "date": "2026-05-20",
+        "$timestamp": "2026-05-20T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 2,
+        "redownloads": 0,
+        "total_downloads": 2,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "52dceda3-69b1-541a-acf2-90c9d79fe970",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "properties": {
+        "date": "2026-05-20",
+        "$timestamp": "2026-05-20T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 93,
+        "active_subscribers_ios": 86,
+        "active_subscribers_android": 7,
+        "mrr_total_usd": 1877.89,
+        "mrr_ios_usd": 1576.16,
+        "mrr_android_usd": 301.73,
+        "revenue_total_usd": 58.86,
+        "revenue_ios_usd": 45.69,
+        "revenue_android_usd": 13.17
+      }
+    },
+    {
+      "uuid": "3d7eca80-2094-5d6a-9f27-2e7642cd999c",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "properties": {
+        "date": "2026-05-20",
+        "$timestamp": "2026-05-20T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 14,
+        "mrr_usd": 243.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "2bdc4413-7a76-5cc8-90c4-a67fc16e4ea4",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "properties": {
+        "date": "2026-05-21",
+        "$timestamp": "2026-05-21T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 6,
+        "redownloads": 0,
+        "total_downloads": 6,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "180799d6-d0ce-5a6d-820b-b098cac20323",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "properties": {
+        "date": "2026-05-21",
+        "$timestamp": "2026-05-21T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 3,
+        "redownloads": 0,
+        "total_downloads": 3,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "a2aee553-9d1f-5c4b-b4a4-57878b157e9f",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "properties": {
+        "date": "2026-05-21",
+        "$timestamp": "2026-05-21T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 90,
+        "active_subscribers_ios": 84,
+        "active_subscribers_android": 6,
+        "mrr_total_usd": 1812.7,
+        "mrr_ios_usd": 1531.32,
+        "mrr_android_usd": 281.38,
+        "revenue_total_usd": 41.59,
+        "revenue_ios_usd": 41.59,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "888346d4-c508-50dd-9249-1b531fc29d5a",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "properties": {
+        "date": "2026-05-21",
+        "$timestamp": "2026-05-21T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 15,
+        "mrr_usd": 263.08,
+        "revenue_usd": 20,
+        "new_subscribers": 1,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "3f9e5351-d052-564d-9396-6e043c5a6b18",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "properties": {
+        "date": "2026-05-22",
+        "$timestamp": "2026-05-22T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 3,
+        "redownloads": 0,
+        "total_downloads": 3,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "7bb8e056-61b2-521f-9407-b8c68e0d7a8f",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "properties": {
+        "date": "2026-05-22",
+        "$timestamp": "2026-05-22T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 5,
+        "redownloads": 0,
+        "total_downloads": 5,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "e01d6c21-01e9-5ca3-ba4d-58065bb9a884",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "properties": {
+        "date": "2026-05-22",
+        "$timestamp": "2026-05-22T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 90,
+        "active_subscribers_ios": 84,
+        "active_subscribers_android": 6,
+        "mrr_total_usd": 1812.62,
+        "mrr_ios_usd": 1531.24,
+        "mrr_android_usd": 281.38,
+        "revenue_total_usd": 11.18,
+        "revenue_ios_usd": 11.18,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "26107a3e-d7c5-53fa-8054-63baf1813a7e",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "properties": {
+        "date": "2026-05-22",
+        "$timestamp": "2026-05-22T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 15,
+        "mrr_usd": 263.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "97c5581f-d884-501b-a58a-c48b6acbfc8f",
+      "event": "android_daily_metrics",
+      "distinct_id": "pipeline_android",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "properties": {
+        "date": "2026-05-23",
+        "$timestamp": "2026-05-23T00:00:00Z",
+        "pipeline": "android",
+        "app_id": "godgpt",
+        "first_time_downloads": 8,
+        "redownloads": 0,
+        "total_downloads": 8,
+        "download_source": "play_console_dashboard"
+      }
+    },
+    {
+      "uuid": "9844ad3a-594f-5769-a045-f37c214e092f",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "properties": {
+        "date": "2026-05-23",
+        "$timestamp": "2026-05-23T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 2,
+        "redownloads": 0,
+        "total_downloads": 2,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "4db6878c-0d31-559f-badb-82883a5cf09b",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "properties": {
+        "date": "2026-05-23",
+        "$timestamp": "2026-05-23T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 88,
+        "active_subscribers_ios": 84,
+        "active_subscribers_android": 4,
+        "mrr_total_usd": 1768.07,
+        "mrr_ios_usd": 1538.45,
+        "mrr_android_usd": 229.62,
+        "revenue_total_usd": 83.36,
+        "revenue_ios_usd": 83.36,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "1e59022c-b2bf-5f8e-829b-2010ee7d3db2",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "properties": {
+        "date": "2026-05-23",
+        "$timestamp": "2026-05-23T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 15,
+        "mrr_usd": 263.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    }
+  ]
+}
