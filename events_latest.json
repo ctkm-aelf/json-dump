@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-13T06:30:44.440Z",
+  "generated_at": "2026-06-14T05:57:00.485Z",
   "date_range": {
-    "from": "2026-06-07",
-    "to": "2026-06-13"
+    "from": "2026-06-08",
+    "to": "2026-06-14"
   },
   "source_status": {
     "stripe": "ERROR: fetch failed",
     "revcat": "ERROR: fetch failed",
     "ios": "WARN: fetch failed",
-    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/89a1910e-8e11-4aca-949e-ea724af51fbf\n  - <ws connected> ws://localhost:9222/devtools/browser/89a1910e-8e11-4aca-949e-ea724af51fbf\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/89a1910e-8e11-4aca-949e-ea724af51fbf\n  - <ws disconnected> ws://localhost:9222/devtools/browser/89a1910e-8e11-4aca-949e-ea724af51fbf code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
+    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/96d2cf2c-276d-402d-930c-8169edb90231\n  - <ws connected> ws://localhost:9222/devtools/browser/96d2cf2c-276d-402d-930c-8169edb90231\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/96d2cf2c-276d-402d-930c-8169edb90231\n  - <ws disconnected> ws://localhost:9222/devtools/browser/96d2cf2c-276d-402d-930c-8169edb90231 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
   },
   "total_events": 0,
   "events": []
