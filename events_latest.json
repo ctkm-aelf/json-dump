@@ -1,72 +1,17 @@
 {
-  "generated_at": "2026-06-17T04:01:16.546Z",
+  "generated_at": "2026-06-18T04:00:50.051Z",
   "date_range": {
-    "from": "2026-06-11",
-    "to": "2026-06-17"
+    "from": "2026-06-12",
+    "to": "2026-06-18"
   },
   "source_status": {
     "stripe": "OK (7 events)",
     "revcat": "OK (7 events)",
     "ios": "OK (7 events)",
-    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/cafc9355-15e7-4898-a15c-8aca59274fec\n  - <ws connected> ws://localhost:9222/devtools/browser/cafc9355-15e7-4898-a15c-8aca59274fec\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/cafc9355-15e7-4898-a15c-8aca59274fec\n  - <ws disconnected> ws://localhost:9222/devtools/browser/cafc9355-15e7-4898-a15c-8aca59274fec code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
+    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/ca5409fe-a01d-4413-9d78-f2d0c1d96c41\n  - <ws connected> ws://localhost:9222/devtools/browser/ca5409fe-a01d-4413-9d78-f2d0c1d96c41\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/ca5409fe-a01d-4413-9d78-f2d0c1d96c41\n  - <ws disconnected> ws://localhost:9222/devtools/browser/ca5409fe-a01d-4413-9d78-f2d0c1d96c41 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
   },
   "total_events": 21,
   "events": [
-    {
-      "uuid": "8cbc4eda-6e9c-5dcb-84a2-a8566682ab47",
-      "event": "ios_daily_metrics",
-      "distinct_id": "pipeline_ios",
-      "timestamp": "2026-06-11T00:00:00Z",
-      "properties": {
-        "date": "2026-06-11",
-        "$timestamp": "2026-06-11T00:00:00Z",
-        "pipeline": "ios",
-        "app_id": "godgpt",
-        "first_time_downloads": 5,
-        "redownloads": 5,
-        "total_downloads": 10,
-        "download_source": "analytics_dashboard",
-        "report_available": true
-      }
-    },
-    {
-      "uuid": "236f6385-6787-5045-a06c-50072484e3c7",
-      "event": "revcat_daily_metrics",
-      "distinct_id": "pipeline_revcat",
-      "timestamp": "2026-06-11T00:00:00Z",
-      "properties": {
-        "date": "2026-06-11",
-        "$timestamp": "2026-06-11T00:00:00Z",
-        "pipeline": "revcat",
-        "app_id": "godgpt",
-        "active_subscribers_total": 87,
-        "active_subscribers_ios": 83,
-        "active_subscribers_android": 4,
-        "mrr_total_usd": 1467.89,
-        "mrr_ios_usd": 1382.77,
-        "mrr_android_usd": 85.11,
-        "revenue_total_usd": 45.02,
-        "revenue_ios_usd": 45.02,
-        "revenue_android_usd": 0
-      }
-    },
-    {
-      "uuid": "479d8aab-8ff0-5af1-84c5-93c6cca8739c",
-      "event": "stripe_daily_metrics",
-      "distinct_id": "pipeline_stripe",
-      "timestamp": "2026-06-11T00:00:00Z",
-      "properties": {
-        "date": "2026-06-11",
-        "$timestamp": "2026-06-11T00:00:00Z",
-        "pipeline": "stripe",
-        "app_id": "godgpt",
-        "active_subscribers": 16,
-        "mrr_usd": 283.08,
-        "revenue_usd": 0,
-        "new_subscribers": 0,
-        "cancellations": 0
-      }
-    },
     {
       "uuid": "6ade3a2d-b2c5-590a-bb61-fc90e37affb7",
       "event": "ios_daily_metrics",
@@ -297,11 +242,11 @@
         "$timestamp": "2026-06-16T00:00:00Z",
         "pipeline": "ios",
         "app_id": "godgpt",
-        "first_time_downloads": 0,
+        "first_time_downloads": 3,
         "redownloads": 0,
-        "total_downloads": 0,
+        "total_downloads": 3,
         "download_source": "analytics_dashboard",
-        "report_available": false
+        "report_available": true
       }
     },
     {
@@ -388,6 +333,61 @@
       "properties": {
         "date": "2026-06-17",
         "$timestamp": "2026-06-17T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 15,
+        "mrr_usd": 263.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "f6957729-c64f-5e9c-861f-9364f6c5cad1",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-06-18T00:00:00Z",
+      "properties": {
+        "date": "2026-06-18",
+        "$timestamp": "2026-06-18T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "analytics_dashboard",
+        "report_available": false
+      }
+    },
+    {
+      "uuid": "5c611f2d-e2a5-571c-a2b6-836fdc72ab5e",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-06-18T00:00:00Z",
+      "properties": {
+        "date": "2026-06-18",
+        "$timestamp": "2026-06-18T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 85,
+        "active_subscribers_ios": 81,
+        "active_subscribers_android": 4,
+        "mrr_total_usd": 1512.54,
+        "mrr_ios_usd": 1427.39,
+        "mrr_android_usd": 85.15,
+        "revenue_total_usd": 0,
+        "revenue_ios_usd": 0,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "c6623e2d-1efd-5017-ac40-126134df4c5b",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-06-18T00:00:00Z",
+      "properties": {
+        "date": "2026-06-18",
+        "$timestamp": "2026-06-18T00:00:00Z",
         "pipeline": "stripe",
         "app_id": "godgpt",
         "active_subscribers": 15,
