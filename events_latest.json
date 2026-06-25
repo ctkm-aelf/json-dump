@@ -1,55 +1,17 @@
 {
-  "generated_at": "2026-06-24T04:00:55.310Z",
+  "generated_at": "2026-06-25T04:00:59.105Z",
   "date_range": {
-    "from": "2026-06-18",
-    "to": "2026-06-24"
+    "from": "2026-06-19",
+    "to": "2026-06-25"
   },
   "source_status": {
     "stripe": "OK (7 events)",
     "revcat": "OK (7 events)",
-    "ios": "WARN: ASC 403 /v1/apps/6743791875/analyticsReportRequests?limit=200: {\n  \"errors\" : [ {\n    \"id\" : \"DUQ2YXVSSLVVARJUNZZJYS32L4\",\n    \"status\" : \"403\",\n    \"code\" : \"FORBIDDEN.REQUIRED_AGREEMENTS_MISSING_OR_EXPIRED\",\n    \"title\" : \"A required agreement is missing or has",
-    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/3b6cbce3-1a27-4b2d-8a88-ef5e3c1b02b5\n  - <ws connected> ws://localhost:9222/devtools/browser/3b6cbce3-1a27-4b2d-8a88-ef5e3c1b02b5\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/3b6cbce3-1a27-4b2d-8a88-ef5e3c1b02b5\n  - <ws disconnected> ws://localhost:9222/devtools/browser/3b6cbce3-1a27-4b2d-8a88-ef5e3c1b02b5 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
+    "ios": "WARN: ASC 403 /v1/apps/6743791875/analyticsReportRequests?limit=200: {\n  \"errors\" : [ {\n    \"id\" : \"LQ3JPCQADD7XWXGJ6ZCTVRYO3Q\",\n    \"status\" : \"403\",\n    \"code\" : \"FORBIDDEN.REQUIRED_AGREEMENTS_MISSING_OR_EXPIRED\",\n    \"title\" : \"A required agreement is missing or has",
+    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/aa0edc9e-ba3b-4830-ba8f-8d1742a259e3\n  - <ws connected> ws://localhost:9222/devtools/browser/aa0edc9e-ba3b-4830-ba8f-8d1742a259e3\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/aa0edc9e-ba3b-4830-ba8f-8d1742a259e3\n  - <ws disconnected> ws://localhost:9222/devtools/browser/aa0edc9e-ba3b-4830-ba8f-8d1742a259e3 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
   },
   "total_events": 14,
   "events": [
-    {
-      "uuid": "5c611f2d-e2a5-571c-a2b6-836fdc72ab5e",
-      "event": "revcat_daily_metrics",
-      "distinct_id": "pipeline_revcat",
-      "timestamp": "2026-06-18T00:00:00Z",
-      "properties": {
-        "date": "2026-06-18",
-        "$timestamp": "2026-06-18T00:00:00Z",
-        "pipeline": "revcat",
-        "app_id": "godgpt",
-        "active_subscribers_total": 86,
-        "active_subscribers_ios": 82,
-        "active_subscribers_android": 4,
-        "mrr_total_usd": 1535.06,
-        "mrr_ios_usd": 1449.91,
-        "mrr_android_usd": 85.15,
-        "revenue_total_usd": 11.24,
-        "revenue_ios_usd": 11.24,
-        "revenue_android_usd": 0
-      }
-    },
-    {
-      "uuid": "c6623e2d-1efd-5017-ac40-126134df4c5b",
-      "event": "stripe_daily_metrics",
-      "distinct_id": "pipeline_stripe",
-      "timestamp": "2026-06-18T00:00:00Z",
-      "properties": {
-        "date": "2026-06-18",
-        "$timestamp": "2026-06-18T00:00:00Z",
-        "pipeline": "stripe",
-        "app_id": "godgpt",
-        "active_subscribers": 14,
-        "mrr_usd": 243.08,
-        "revenue_usd": 0,
-        "new_subscribers": 0,
-        "cancellations": 0
-      }
-    },
     {
       "uuid": "aec4816f-13dd-5310-9104-c26d2c1d4012",
       "event": "revcat_daily_metrics",
@@ -269,6 +231,44 @@
       "properties": {
         "date": "2026-06-24",
         "$timestamp": "2026-06-24T00:00:00Z",
+        "pipeline": "stripe",
+        "app_id": "godgpt",
+        "active_subscribers": 13,
+        "mrr_usd": 223.08,
+        "revenue_usd": 0,
+        "new_subscribers": 0,
+        "cancellations": 0
+      }
+    },
+    {
+      "uuid": "2c48dee5-771f-515b-8d80-6c0296d7e3bc",
+      "event": "revcat_daily_metrics",
+      "distinct_id": "pipeline_revcat",
+      "timestamp": "2026-06-25T00:00:00Z",
+      "properties": {
+        "date": "2026-06-25",
+        "$timestamp": "2026-06-25T00:00:00Z",
+        "pipeline": "revcat",
+        "app_id": "godgpt",
+        "active_subscribers_total": 81,
+        "active_subscribers_ios": 78,
+        "active_subscribers_android": 3,
+        "mrr_total_usd": 1324.56,
+        "mrr_ios_usd": 1263.52,
+        "mrr_android_usd": 61.03,
+        "revenue_total_usd": 0,
+        "revenue_ios_usd": 0,
+        "revenue_android_usd": 0
+      }
+    },
+    {
+      "uuid": "3fc73d95-6d7b-5b7e-a1b5-cbab7309ad40",
+      "event": "stripe_daily_metrics",
+      "distinct_id": "pipeline_stripe",
+      "timestamp": "2026-06-25T00:00:00Z",
+      "properties": {
+        "date": "2026-06-25",
+        "$timestamp": "2026-06-25T00:00:00Z",
         "pipeline": "stripe",
         "app_id": "godgpt",
         "active_subscribers": 13,
