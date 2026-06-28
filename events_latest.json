@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-27T06:52:00.373Z",
+  "generated_at": "2026-06-28T07:14:33.570Z",
   "date_range": {
-    "from": "2026-06-21",
-    "to": "2026-06-27"
+    "from": "2026-06-22",
+    "to": "2026-06-28"
   },
   "source_status": {
-    "stripe": "ERROR: terminated",
+    "stripe": "ERROR: fetch failed",
     "revcat": "ERROR: fetch failed",
-    "ios": "WARN: ASC 403 /v1/apps/6743791875/analyticsReportRequests?limit=200: {\n  \"errors\" : [ {\n    \"id\" : \"4S7YIO26O3FT3LE5DLMUK4AAVU\",\n    \"status\" : \"403\",\n    \"code\" : \"FORBIDDEN.REQUIRED_AGREEMENTS_MISSING_OR_EXPIRED\",\n    \"title\" : \"A required agreement is missing or has",
-    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/e5e9955c-5a10-4c81-a4dc-e7e85e7843c8\n  - <ws connected> ws://localhost:9222/devtools/browser/e5e9955c-5a10-4c81-a4dc-e7e85e7843c8\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/e5e9955c-5a10-4c81-a4dc-e7e85e7843c8\n  - <ws disconnected> ws://localhost:9222/devtools/browser/e5e9955c-5a10-4c81-a4dc-e7e85e7843c8 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
+    "ios": "WARN: ASC 403 /v1/apps/6743791875/analyticsReportRequests?limit=200: {\n  \"errors\" : [ {\n    \"id\" : \"Q7THLUT2Q7ESG67JW5BWRLUBZ4\",\n    \"status\" : \"403\",\n    \"code\" : \"FORBIDDEN.REQUIRED_AGREEMENTS_MISSING_OR_EXPIRED\",\n    \"title\" : \"A required agreement is missing or has",
+    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/69518984-438c-428b-8a50-59e296ffdb3a\n  - <ws connected> ws://localhost:9222/devtools/browser/69518984-438c-428b-8a50-59e296ffdb3a\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/69518984-438c-428b-8a50-59e296ffdb3a\n  - <ws disconnected> ws://localhost:9222/devtools/browser/69518984-438c-428b-8a50-59e296ffdb3a code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
   },
   "total_events": 0,
   "events": []
