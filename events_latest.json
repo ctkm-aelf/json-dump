@@ -1,34 +1,17 @@
 {
-  "generated_at": "2026-07-08T04:00:29.168Z",
+  "generated_at": "2026-07-09T04:00:27.062Z",
   "date_range": {
-    "from": "2026-07-02",
-    "to": "2026-07-08"
+    "from": "2026-07-03",
+    "to": "2026-07-09"
   },
   "source_status": {
     "stripe": "ERROR: Stripe 401: {\n  \"error\": {\n    \"code\": \"api_key_expired\",\n    \"doc_url\": \"https://stripe.com/docs/error-codes/api-key-expired\",\n    \"message\": \"Expired API Key provided: rk_live_**********************************",
     "revcat": "ERROR: RevCat mrr 401: {\"doc_url\":\"https://errors.rev.cat/authentication-error\",\"message\":\"Invalid API key.\",\"object\":\"error\",\"retryable\":false,\"type\":\"authentication_error\"}\n",
     "ios": "OK (7 events)",
-    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/f9763103-e31b-46b2-9af9-18105549e036\n  - <ws connected> ws://localhost:9222/devtools/browser/f9763103-e31b-46b2-9af9-18105549e036\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/f9763103-e31b-46b2-9af9-18105549e036\n  - <ws disconnected> ws://localhost:9222/devtools/browser/f9763103-e31b-46b2-9af9-18105549e036 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
+    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe\n  - <ws connected> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe\n  - <ws disconnected> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
   },
   "total_events": 7,
   "events": [
-    {
-      "uuid": "4fc50561-44e8-5db3-9c7f-bc2d5752f4ff",
-      "event": "ios_daily_metrics",
-      "distinct_id": "pipeline_ios",
-      "timestamp": "2026-07-02T00:00:00Z",
-      "properties": {
-        "date": "2026-07-02",
-        "$timestamp": "2026-07-02T00:00:00Z",
-        "pipeline": "ios",
-        "app_id": "godgpt",
-        "first_time_downloads": 5,
-        "redownloads": 6,
-        "total_downloads": 11,
-        "download_source": "analytics_dashboard",
-        "report_available": true
-      }
-    },
     {
       "uuid": "e0d1ca23-511f-5878-ae44-f928df8a3b73",
       "event": "ios_daily_metrics",
@@ -107,11 +90,11 @@
         "$timestamp": "2026-07-07T00:00:00Z",
         "pipeline": "ios",
         "app_id": "godgpt",
-        "first_time_downloads": 0,
-        "redownloads": 0,
-        "total_downloads": 0,
+        "first_time_downloads": 11,
+        "redownloads": 7,
+        "total_downloads": 18,
         "download_source": "analytics_dashboard",
-        "report_available": false
+        "report_available": true
       }
     },
     {
@@ -122,6 +105,23 @@
       "properties": {
         "date": "2026-07-08",
         "$timestamp": "2026-07-08T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "analytics_dashboard",
+        "report_available": false
+      }
+    },
+    {
+      "uuid": "6ec0b96a-db02-5337-9685-b22c63470871",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "properties": {
+        "date": "2026-07-09",
+        "$timestamp": "2026-07-09T00:00:00Z",
         "pipeline": "ios",
         "app_id": "godgpt",
         "first_time_downloads": 0,
