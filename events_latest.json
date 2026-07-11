@@ -1,51 +1,17 @@
 {
-  "generated_at": "2026-07-09T04:00:27.062Z",
+  "generated_at": "2026-07-11T04:19:30.447Z",
   "date_range": {
-    "from": "2026-07-03",
-    "to": "2026-07-09"
+    "from": "2026-07-05",
+    "to": "2026-07-11"
   },
   "source_status": {
     "stripe": "ERROR: Stripe 401: {\n  \"error\": {\n    \"code\": \"api_key_expired\",\n    \"doc_url\": \"https://stripe.com/docs/error-codes/api-key-expired\",\n    \"message\": \"Expired API Key provided: rk_live_**********************************",
-    "revcat": "ERROR: RevCat mrr 401: {\"doc_url\":\"https://errors.rev.cat/authentication-error\",\"message\":\"Invalid API key.\",\"object\":\"error\",\"retryable\":false,\"type\":\"authentication_error\"}\n",
+    "revcat": "ERROR: RevCat revenue 401: {\"doc_url\":\"https://errors.rev.cat/authentication-error\",\"message\":\"Invalid API key.\",\"object\":\"error\",\"retryable\":false,\"type\":\"authentication_error\"}\n",
     "ios": "OK (7 events)",
-    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe\n  - <ws connected> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe\n  - <ws disconnected> ws://localhost:9222/devtools/browser/25b0808c-e4a2-4e17-b981-651a04d939fe code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
+    "android": "WARN: CDP connect failed: browserType.connectOverCDP: Protocol error (Browser.setDownloadBehavior): Browser context management is not supported.\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9222\n  - <ws connecting> ws://localhost:9222/devtools/browser/c3ed17f7-f8c5-41f7-bbf3-0e5db9a8bde0\n  - <ws connected> ws://localhost:9222/devtools/browser/c3ed17f7-f8c5-41f7-bbf3-0e5db9a8bde0\n  - <ws disconnecting> ws://localhost:9222/devtools/browser/c3ed17f7-f8c5-41f7-bbf3-0e5db9a8bde0\n  - <ws disconnected> ws://localhost:9222/devtools/browser/c3ed17f7-f8c5-41f7-bbf3-0e5db9a8bde0 code=1000 reason=\n. Is Chrome running with --remote-debugging-port=9222?"
   },
   "total_events": 7,
   "events": [
-    {
-      "uuid": "e0d1ca23-511f-5878-ae44-f928df8a3b73",
-      "event": "ios_daily_metrics",
-      "distinct_id": "pipeline_ios",
-      "timestamp": "2026-07-03T00:00:00Z",
-      "properties": {
-        "date": "2026-07-03",
-        "$timestamp": "2026-07-03T00:00:00Z",
-        "pipeline": "ios",
-        "app_id": "godgpt",
-        "first_time_downloads": 5,
-        "redownloads": 2,
-        "total_downloads": 7,
-        "download_source": "analytics_dashboard",
-        "report_available": true
-      }
-    },
-    {
-      "uuid": "65096eb8-e5f3-5b03-9348-2b7653b2fecd",
-      "event": "ios_daily_metrics",
-      "distinct_id": "pipeline_ios",
-      "timestamp": "2026-07-04T00:00:00Z",
-      "properties": {
-        "date": "2026-07-04",
-        "$timestamp": "2026-07-04T00:00:00Z",
-        "pipeline": "ios",
-        "app_id": "godgpt",
-        "first_time_downloads": 4,
-        "redownloads": 6,
-        "total_downloads": 10,
-        "download_source": "analytics_dashboard",
-        "report_available": true
-      }
-    },
     {
       "uuid": "33d62425-a67d-5577-9c76-039449dd02c6",
       "event": "ios_daily_metrics",
@@ -107,11 +73,11 @@
         "$timestamp": "2026-07-08T00:00:00Z",
         "pipeline": "ios",
         "app_id": "godgpt",
-        "first_time_downloads": 0,
-        "redownloads": 0,
-        "total_downloads": 0,
+        "first_time_downloads": 4,
+        "redownloads": 4,
+        "total_downloads": 8,
         "download_source": "analytics_dashboard",
-        "report_available": false
+        "report_available": true
       }
     },
     {
@@ -122,6 +88,40 @@
       "properties": {
         "date": "2026-07-09",
         "$timestamp": "2026-07-09T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 5,
+        "redownloads": 1,
+        "total_downloads": 6,
+        "download_source": "analytics_dashboard",
+        "report_available": true
+      }
+    },
+    {
+      "uuid": "0c0fa5fd-c1eb-5db9-b1da-da25fc3e8261",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-07-10T00:00:00Z",
+      "properties": {
+        "date": "2026-07-10",
+        "$timestamp": "2026-07-10T00:00:00Z",
+        "pipeline": "ios",
+        "app_id": "godgpt",
+        "first_time_downloads": 0,
+        "redownloads": 0,
+        "total_downloads": 0,
+        "download_source": "analytics_dashboard",
+        "report_available": false
+      }
+    },
+    {
+      "uuid": "224f75f2-be63-50b1-9527-1eca490b1b89",
+      "event": "ios_daily_metrics",
+      "distinct_id": "pipeline_ios",
+      "timestamp": "2026-07-11T00:00:00Z",
+      "properties": {
+        "date": "2026-07-11",
+        "$timestamp": "2026-07-11T00:00:00Z",
         "pipeline": "ios",
         "app_id": "godgpt",
         "first_time_downloads": 0,
